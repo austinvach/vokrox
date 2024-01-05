@@ -255,7 +255,7 @@ textarea {
   }
 
   .title {
-    margin-top: 50px;
+    margin-top: min(15vh, 200px);
     height: 74px;
   }
 
@@ -297,10 +297,4 @@ textarea {
 
   footer a {
     color:lightgrey;
-  }
-
-  @media only screen and (min-width: 769px) {
-    .title {
-      margin-top: 200px;
-    }
   }
