@@ -937,11 +937,6 @@ html {
   margin: 0.5rem;
 }
 
-.my-14 {
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -950,10 +945,6 @@ html {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
 }
 
 .mt-20 {
@@ -968,16 +959,12 @@ html {
   display: flex;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
 .h-full {
   height: 100%;
 }
 
-.min-h-20 {
-  min-height: 5rem;
+.max-h-20 {
+  max-height: 5rem;
 }
 
 .min-h-16 {
@@ -1000,14 +987,6 @@ html {
   justify-content: center;
 }
 
-.fill-inherit {
-  fill: inherit;
-}
-
-.fill-white {
-  fill: #fff;
-}
-
 .fill-current {
   fill: currentColor;
 }
@@ -1017,17 +996,8 @@ html {
   padding-right: 0.25rem;
 }
 
-.px-1\.5 {
-  padding-left: 0.375rem;
-  padding-right: 0.375rem;
-}
-
 .py-4 {
   padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.pb-4 {
   padding-bottom: 1rem;
 }
 
@@ -1035,21 +1005,9 @@ html {
   text-align: center;
 }
 
-.align-middle {
-  vertical-align: middle;
-}
-
-.align-bottom {
-  vertical-align: bottom;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.leading-none {
-  line-height: 1;
 }
 
 .text-current {
@@ -1060,18 +1018,6 @@ html {
   text-decoration-line: underline;
 }
 
-.no-underline {
-  text-decoration-line: none;
-}
-
-.decoration-orange-50 {
-  text-decoration-color: #fff7ed;
-}
-
-.decoration-orange-500 {
-  text-decoration-color: #f97316;
-}
-
 .decoration-blue-500 {
   text-decoration-color: #3b82f6;
 }
@@ -1080,16 +1026,12 @@ html {
   text-decoration-color: #22c55e;
 }
 
-.decoration-gray-500 {
-  text-decoration-color: #6b7280;
+.decoration-orange-500 {
+  text-decoration-color: #f97316;
 }
 
 .decoration-dotted {
   text-decoration-style: dotted;
-}
-
-.underline-offset-2 {
-  text-underline-offset: 2px;
 }
 
 .underline-offset-4 {
